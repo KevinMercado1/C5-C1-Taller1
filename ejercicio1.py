@@ -3,13 +3,16 @@ nombre =input("Ingresa tu nombre: ")
 fecha_nacimiento = input("Ingresa tu fecha de nacimiento: ")
 codigo =input("Ingresa tu codigo de estudiante: ")
 
-info = estudiante=(nombre,fecha_nacimiento,codigo)
+datos_estudiante = (nombre, fecha_nacimiento, codigo)
 
+notas = [3.0,4.5,5.0]
 
-materias = ["Ingles", "Español", "Matematicas"]
+estudiante = {
+"datos": datos_estudiante,
+"notas": notas
+}
 
-notas = []
+materias = ["Ingles", "Español", "Sociales"]
 
-notas.append(3.0)
-notas.append(5.0)
-notas.append(4.0)
+print(estudiante)
+print(materias)
