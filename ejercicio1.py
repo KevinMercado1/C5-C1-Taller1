@@ -4,18 +4,22 @@ codigo = input("Ingresa tu codigo de estudiante: ")
 
 datos_estudiante = (nombre, fecha_nacimiento, codigo)
 materias = ["Ingles", "Español", "Sociales"]
-notas = []
+
+calificaciones = {}
 
 print(f"\nHola, {nombre}, por favor ingresa tus notas:")
 
 for materia in materias:
-    nota = float(input(f"Nota para {materia}: "))
-    notas.append(nota)
+    try:
+        nota = float(input(f"Nota para {materia}: "))
+        calificaciones[materia] = nota
+    except ValueError:
+        print(f"Error en {materia}: No se pueden colocar letras u caracteres especiales.")
+        calificaciones[materia] = 0.0 
 
 estudiante = {
-    "datos": datos_estudiante,
-    "notas": notas,
-    "materias": materias
+    "perfil": datos_estudiante,
+    "notas_por_materia": calificaciones
 }
 
 print("\n--- Registro Completo ---")
