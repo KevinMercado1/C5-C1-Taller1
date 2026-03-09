@@ -1,18 +1,22 @@
-
-nombre =input("Ingresa tu nombre: ")
+nombre = input("Ingresa tu nombre: ")
 fecha_nacimiento = input("Ingresa tu fecha de nacimiento: ")
-codigo =input("Ingresa tu codigo de estudiante: ")
+codigo = input("Ingresa tu codigo de estudiante: ")
 
 datos_estudiante = (nombre, fecha_nacimiento, codigo)
+materias = ["Ingles", "Español", "Sociales"]
+notas = []
 
-notas = [3.0,4.5,5.0]
+print(f"\nHola, {nombre}, por favor ingresa tus notas:")
+
+for materia in materias:
+    nota = float(input(f"Nota para {materia}: "))
+    notas.append(nota)
 
 estudiante = {
-"datos": datos_estudiante,
-"notas": notas
+    "datos": datos_estudiante,
+    "notas": notas,
+    "materias": materias
 }
 
-materias = ["Ingles", "Español", "Sociales"]
-
-print(estudiante)
-print(materias)
+print("\n--- Registro Completo ---")
+print(estudiante) 
