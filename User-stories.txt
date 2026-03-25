@@ -1,0 +1,56 @@
+1. as a user I want to log in so that I can see my profile.
+acceptance criteria: The log should show the profiles of the users
+
+2. As a Costumer, I want to search for restaurant so that show all the meal offer the restaurant.
+acceptance criteria: The Page need show all menu for the clients of the restaurant.
+
+3. As a User, I want to a better interface so that I am happy.
+acceptance criteria: the interface has another functionalities, for UX.
+
+4. As a customer, I want to pay my order, so that I want a checkout screen.
+acceptance criteria: Do a checker for see my orders payed.
+
+5. As a user, I want to notifications about my food so that I can create a app for follow it.
+acceptance criteria: Create a App for tracking my food.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TITLE: CREATING PROFILE FOR A WEB PAGE
+1. as a user I want to log in so that I can see my profile.
+acceptance criteria: Given  the user logs in to the profile, when he enters the page then they can see the profile.
+Task: 
+Priority: Medium
+status: ToDo
+Story Point: 1-2
+
+TITLE: BUILD A MENU FOR MEAL
+2. As a Costumer, I want to search for restaurant so that show all the meal offer the restaurant.
+acceptance criteria: Given the user searches for a virtual menu, when they scan the Qr code then they can see it.
+Task:
+Priority: High
+status: In Progress
+Story Point:2-3
+
+TITLE: PERFORMANCE UX INTERFACE
+3. As a User, I want to a better interface so that I am happy.
+acceptance criteria: given a UX interface, when they explores the page then they can see a better interface.
+Task:
+Priority: high
+status: ToDo
+Story Point: 2-3
+
+TITLE: BUTTON TO DOWNLOAD THE VOUCHER IN PDF FORMAT
+4. As a customer, I want to pay my order, so that I want a checkout screen.
+acceptance criteria: Given the e-store.
+Task:
+Priority: high
+status: Done
+Story Point: 
+
+TITLE: FOOD APP
+5. As a user, I want to notifications about my food so that I can create a app for follow it.
+acceptance criteria: Given the user a app, when they tracking your order then they can tracked. 
+Task:
+Priority: high
+status: ToDo
+Story Point: 3-4
